@@ -1,0 +1,98 @@
+
+body {
+  background-color: #F1F1F4;
+  font-family: 'Open Sans', sans-serif;
+  color: #737791;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  color: #54576E;
+  font-family: 'Domine', serif;;
+  font-size: 30px;
+  line-height: 15px;
+}
+
+a {
+  color: #81859C;
+  text-decoration: none;
+}
+
+.marginbottom {
+  margin: 0 0 40px 0;
+}
+
+.container {
+  margin: 2.5%;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 1px 1px 6px #ABADBD;
+}
+
+.btn-blue {
+    background-color: #95B8D1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px #BBD1E1;
+}
+
+.btn-blue:hover {
+  background-color: #5F7686;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    margin: 17px 0px;
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.link:hover {
+  color: #383A4A;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+    .card-white {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
